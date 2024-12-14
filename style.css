@@ -1,0 +1,89 @@
+/* Global Reset */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(0, 33, 48);
+    color: white;
+  }
+  
+  h1 {
+    color: #d9f8fd;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #020202;
+    margin-bottom: 20px;
+  }
+  
+  /* Container Styles */
+  .container {
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Input Fields */
+  input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 20px;
+    background: #f1f1f1;
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Buttons */
+  .registerbtn, .loginbtn {
+    background-color: #458cdd;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover, .loginbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Links */
+  a {
+    color: rgb(250, 17, 17);
+  }
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  /* Specific Page Styles */
+  h2 {
+    text-align: center;
+  }
+  
+  /* Adjustments for login/signup form */
+  .signin p {
+    font-size: 14px;
+  }
+  
